@@ -1,0 +1,15 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "..",
+  "testEnvironment": "node",
+  "testRegex": "test/.*.e2e-spec.ts$",
+  "collectCoverageFrom": [
+    "src/**/*.ts",
+    "test/hcm-mock.server.ts",
+    "!src/main.ts"
+  ],
+  "coverageDirectory": "coverage",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  }
+}

@@ -1,0 +1,10 @@
+﻿# Root
+*.zip
+_submission_tmp*/
+
+# Service artifacts
+time-off-service/node_modules/
+time-off-service/dist/
+time-off-service/.env
+time-off-service/*.sqlite
+time-off-service/.DS_Store
